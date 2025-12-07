@@ -1,0 +1,23 @@
+[
+  {
+    "principal": "role/BackupAdmin",
+    "account": "acc-dev-001",
+    "permissions_total": 45,
+    "permissions_unused": 32,
+    "contains_wildcards": true,
+    "last_used_days": 400,
+    "risk_score": 87,
+    "dangerous_permissions": ["iam:*", "s3:*", "ec2:*"]
+  },
+  {
+    "principal": "role/DataEngineer",
+    "account": "acc-dev-002",
+    "permissions_total": 23,
+    "permissions_unused": 2,
+    "contains_wildcards": false,
+    "last_used_days": 14,
+    "risk_score": 34,
+    "dangerous_permissions": ["s3:PutObject"]
+  }
+]
+
